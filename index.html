@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>好萊塢運鏡預演實作班</title>
+
+    <!--css///////////-->
+    <link rel="stylesheet" href="css/bs/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!--js///////////-->
+    <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <!--animate///////////-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" type="text/css">
+    <style>
+    .site-heading{
+        position: absolute;
+        top: 0;
+        left: 50px;
+        z-index: 100;
+    }
+    </style>
+</head>
+<body>
+  <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-white text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a href="https://www.pcschool.com.tw">
+              <img class="logo" src="images/GJUN-LOGO.svg" alt="巨匠電腦"  title="巨匠商標">
+            </a>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-secondary" href="#">免費索取</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-secondary" href="#">職訓補助</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-secondary" href="#">熱門技能</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  <!-- Navigation -->
+
+  <!-- Masthead -->
+  <header>
+      <div class="wrapper">
+          <div class="board">
+              <img src="images/borad.png" alt="">
+          </div>
+          <div class="camera">
+              <img src="images/cmara.png" alt="">
+          </div>
+          <div class="blackboard">
+              <img src="images/blackboard.png" alt="">
+          </div>
+      </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="about-section text-white">
+    <div class="container col-lg-6">
+      <div class="row pt-4">
+          <div class="mx-auto">
+            <div class="about-inner rounded">
+              <h2 class="text-center">好萊塢運鏡預演實作班</h2>
+              <div class="about-content about-icon p-3">
+                <p><i class="fa fa-calendar-check-o"></i>開課時間：影音課程，隨買即看</p>   
+                <p><i class="fa fa-clock-o"></i>課程時數：10小時</p>
+                <p><i class="fa fa-book"></i>先備能力：需具備Maya操作基礎</p>    
+            </div>
+  
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  
+    <!-- Problems Section -->
+    <section class="page-section bg-problem">
+      <div class="container">
+        <h2 class="font-weight-bold mt-0">拍影片，你是否也有這樣的困擾？</h2>
+  
+        <div class="row align-items-center mt-3">
+  
+          <div class="col-lg-4 text-center mt-3">
+            <div class="mt-3">
+                <div class="bg-gray p-4 rounded">
+                  <h3 class="text-white">影片製作無頭緒</h3>
+                </div>
+            </div>
+  
+            <div class="mt-3">
+              <i class="fa fa-5x fa-caret-down text-gray" aria-hidden="true"></i>
+            </div>
+  
+            <div class="mt-3 mb-3">
+              <div class="bg-yellow p-3 rounded">
+                  <h3 class="h4 mt-2 icon"><i class="fa fa-file-video-o" aria-hidden="true"></i>分鏡腳本一次教</h3>
+                  <p class="text-justify mb-0">影片內容像說故事，故事要精采，製作階段規劃腳本、分鏡、素材等最為重要。</p>
+              </div>
+            </div>
+  
+          </div>
+  
+          <div class="col-lg-4  text-center mt-3">
+              <div class="mt-3">
+                <div class="bg-gray p-4 rounded">
+                  <h3 class="text-white">拍攝構圖難度高</h3>
+                </div>
+              </div>
+  
+              <div class="mt-3">
+                <i class="fa fa-5x fa-caret-down text-gray" aria-hidden="true"></i>
+              </div>
+               <div class="mt-3 mb-3">
+                  <div class="bg-yellow p-3 rounded">
+                      <h3 class="h4 mt-2 icon"><i class="fa fa-camera" aria-hidden="true"></i>構圖拍攝一把抓</h3>
+                      <p class="text-justify mb-0">構圖與拍攝一部影片的靈魂，畫面美感決定影片質感，構圖運鏡好，小預算也能有大製作。</p>
+                  </div>
+              </div>
+          </div>
+         
+          <div class="col-lg-4 text-center mt-3">
+            <div class="mt-3">
+                  <div class="bg-gray p-4 rounded">
+                    <h3 class="text-white">運鏡走位好困難</h3>
+                  </div>
+            </div>
+  
+            <div class="mt-3">
+              <i class="fa fa-5x fa-caret-down text-gray" aria-hidden="true"></i>
+            </div>
+  
+            <div class="mt-3 mb-3">
+                <div class="bg-yellow p-3 rounded">
+                    <h3 class="h4 mt-2 icon"><i class="fa fa-camera-retro" aria-hidden="true"></i>3D運鏡一起學</h3>
+                    <p class="text-justify mb-0">從攝影學到簡易3D運鏡操作練習，在虛擬世界中天馬行空發揮創意，引起觀眾共鳴。</p>
+                </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Class Section -->
+  <section class="page-section class-section">
+    <div class="container">
+        <div class="row align-items-center p-1">
+          <div class="mx-3">
+            <h2 class="font-weight-bold">好點子自製創意影片，你也能當大導演！</h2>
+            <h3 class="mt-5">好萊塢運鏡預演實作班</h3>
+            <p class="text-justify">網路時代，影片行銷已成為銳不可擋的潮流，廣泛運用在社群媒體上。不論是拍攝吸睛創意影片，或滿足電影夢，不用大預算也可在家完成夢想。本課程從影片前期的故事分鏡腳本規劃到構圖、拍攝、運鏡等基礎攝影，到簡易3D攝影機運鏡基礎，實踐獨一無二屬於自己的好萊塢電影大作。</p>
+          </div>
+
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 mr-auto mt-5 p-2">
+                <p class="class-title">分鏡腳本、鏡頭語言與構圖基礎</p>
+                <p class="pic03"></p>
+                <p class="class-content">
+                  • 分鏡腳本規劃<br>
+                  • 產出Premiere動態腳本<br>
+                  • 掌握Maya基本操作介面與基本實作<br>
+                  • 掌握3D攝影機、取景、運鏡、構圖重點<br>
+                  • 走位演練及影片拍攝實作<br>
+                </p>
+                
+              </div>
+  
+              <div class="col-lg-6 ml-auto mt-5 p-2">
+                <p class="class-title">3D攝影機、運鏡與走位演練</p>
+                <p class="pic04"></p>
+                <p class="class-content">
+                  • Maya基本操作<br>
+                  • 3D攝影機運鏡基礎<br>
+                  • 開放/封閉式取景與時間分佈<br>
+                  • 鏡頭推計與退後、導演基線安排<br>
+                  • 軌道、手持鏡頭與升降機動作應用<br>
+                </p>
+              </div>
+             </div>
+          </div>
+
+        </div>  
+    </div>
+  </section>
+
+   <!-- Teacher Section -->
+   <section class="bg-blue3">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4">
+          <div class="p-5">
+            <img class="rounded-circle center-block" src="images/2.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="p-5">
+            <h2 class="text-white">陳慈仁  老師</h2>
+            <p class="mt-4 text-white text-justify">投身於在動畫電視電影後製產業十餘年。曾參與「正義聯盟」、「神鬼傳奇」、「自殺突擊隊」、「Final Fantasy 13-2」、「薩利機長」等好萊塢電影電影特效。除有國內外業界工作經驗外，亦曾在多所補教機關與學校教導製作3D動畫的全過程多年。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!-- Student & Learned Section -->
+      <section class="page-section bg-student">
+        <div class="container">
+          <div class="row align-items-center">
+  
+            <div class="col-lg-6 mr-auto mt-2 mb-5">
+                <img class="img-thumbnail" src="images/5.jpg" alt=""> 
+            </div>
+  
+            <div class="col-lg-6 ml-auto mt-2 mb-5">
+              <h3 class="mb-5 mx-2 font-weight-bold">本課程適合學習對象</h3>
+                <div class="mx-2">
+                  <h5 class="icon"><i class="fa fa-check-square-o" aria-hidden="true"></i>已從事產品電影動畫相關工作</h5>
+                  <p>影視特效師、動畫設計師、3D動畫師</p>
+                </div>
+             
+                <div class="mx-2">
+                  <h5 class="icon"><i class="fa fa-check-square-o" aria-hidden="true"></i>正在學電影動畫產業相關技術</h5>
+                  <p>文創、廣告或影視工作者、電影相關科系學生</p>
+                </div>
+               
+                <div class="mx-2">
+                  <h5 class="icon"><i class="fa fa-check-square-o" aria-hidden="true"></i>有興趣影視創作領域</h5>
+                  <p>影視特效師、動畫設計師、3D動畫師</p>
+                </div>
+            </div>
+  
+          </div>
+        </div>
+  
+        <div class="container">
+            <div class="row align-items-center pt-4">
+  
+                <div class="col-lg-6 mr-auto mt-5">
+                    <h3 class="mb-5 mx-2 font-weight-bold">學完本課程，你可以…</h3>
+                    <p class="mx-2 icon"><i class="fa fa-hand-o-right" aria-hidden="true"></i>掌握Premiere基本操作指令</p>
+                    <p class="mx-2 icon"><i class="fa fa-hand-o-right" aria-hidden="true"></i>產出Premiere動態腳本</p>
+                    <p class="mx-2 icon"><i class="fa fa-hand-o-right" aria-hidden="true"></i>掌握Maya基本操作介面與基本實作</p>
+                    <p class="mx-2 icon"><i class="fa fa-hand-o-right" aria-hidden="true"></i>掌握3D攝影機、取景、運鏡、構圖重點</p>
+                    <p class="mx-2 icon"><i class="fa fa-hand-o-right" aria-hidden="true"></i>走位演練及影片拍攝實作</p>
+  
+                  </div>
+  
+              <div class="col-lg-6 ml-auto mt-5">
+                  <img class="img-thumbnail" src="images/6.png" alt="">
+              </div>
+             </div>
+          </div>
+  
+      </section>
+
+      <!-- Contact Section -->
+      <section class="bg-blue3">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 mr-auto p-4">
+              <div class="">
+                <h4 class="text-center text-white pt-4">免費領取影視特效學習秘笈</h4>
+                <img class="img-fluid pt-2 pb-4" src="images/7.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6 ml-auto p-4">
+              <div class="">
+                <form>
+                  <fieldset disabled="">
+                    <div class="form-group">
+                      <input type="text" id="name" class="form-control" placeholder="姓名">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="mobile" class="form-control" placeholder="行動電話">
+                    </div>
+                    <div class="form-group">
+                      <div class="form-group row">
+                          <div class="col-lg-6">
+                            <select id="city" class="form-control">
+                              <option>選擇縣市</option>
+                            </select>
+                          </div>
+                          <div class="col-lg-6">
+                            <select id="area" class="form-control">
+                              <option>選擇區鄉鎮</option>
+                            </select>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" id="email" class="form-control" placeholder="E-mail">
+                    </div>
+
+                    <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled="">
+                          <label class="form-check-label" for="disabledFieldsetCheck">
+                              我已詳細閱讀並接受個資保護聲明
+                          </label>
+                    </div>
+                    <!-- <button type="submit" class="btn btn-warning mt-3 w-100">立即報名</button> -->
+                    <button type="submit" class="submit-btn mt-3 w-100">立即報名</button>
+                  </fieldset>
+                </form>
+                    
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!--版權///////////-->
+
+      <footer class="footer text-center py-2">
+        <div class="container py-sm-3">
+          <a href="#">9大免費熱門課 進修趁現在</a>
+          <a href="#">政府職訓班 最高補助100%</a>
+          <a href="#">具行銷基礎的網頁設計養成班開課囉!</a>
+        </div>
+        <div class="footer_content mb-4">
+          <br>客服專線 0800-231-381
+          <br>週一至週五 09:00~12:00、13:00~18:00
+          <br>巨匠電腦版權所有｜ 2019 Gjun information Co., Ltd. All Rights Reserved
+        </div> 
+    </footer>
+
+    
+  <!--js///////////-->
+  <script src="js/bs/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>
+
